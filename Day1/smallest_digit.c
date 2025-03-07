@@ -1,23 +1,23 @@
 #include <stdio.h>
 int main() 
 {
-    int num, digit, smallest_digit;
+    int num, digit, smallestDigit;
     printf("Enter a number: ");
     scanf("%d", &num);
-    smallest_digit = 9;
+    smallestDigit = 9;
     while (num != 0)
      {
         digit = num % 10;
 
-        if (digit < smallest_digit) 
+        if (digit < smallestDigit) 
         {
-            smallest_digit = digit;
+            smallestDigit = digit;
         }
-
+        
         num = num / 10;
     }
 
-    printf("The smallest digit is: %d\n", smallest_digit);
+    printf("The  smallest digit is: %d\n", smallestDigit);
 
     return 0;
 }
