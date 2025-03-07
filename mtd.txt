@@ -53,5 +53,33 @@ $ git commit -m "notes file of the mtd training is added"
 $ git push origin main
 // the object now is sent to the server (the remote repo is updated)
 
+DAY2 FRIDAY 7-3-2025
+
+Arithmetic operators: + - * / %
+
+all are operators
+I/P are numbers
+O/p are numbers
+used with infix notation 
+to perform any arithmetic operations, DT of both the operands must be same 
+left to right associtivity w.r.t reading the values /expressions 
+for the calculation to happen user given infix expression should be converted to postfix
+---------------------------------------------------------------------------------------------
+
+Relational operators:> < == != >= <=
+
+[10,20]
+num >= 10 and num <= 20
+
+(10,20)
+num > 10 and num < 30
+------------------------------------------
+
+Logical opeartors: & && | || !
+
+
+int n = 10;
+printf("%d  %d  %d  %d  %d", n--, ++n, --n, n--, n++);
+----------------------------------------
 
 
