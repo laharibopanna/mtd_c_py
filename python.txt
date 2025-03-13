@@ -1,0 +1,18 @@
+Python_Note
+
+EXCEPTIONS
+
+ARITHMETIC OPERATORS IN PYTHON
++ - * / // ** % 
+
+++
+---
+
+range()
+range(10)
+range(2,10)
+range(10,-5,-2)
+
+steps:
+read the script
+capture the 
